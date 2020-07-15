@@ -1,0 +1,342 @@
+Phase 1 - known dates
+A --
+Date string:		Tue Feb 02 -2012 01:02:03 GMT+0800 (中国标准时间)
+	 raw:		-125657074677000
+	 toString:	Tue Feb 02 -2012 01:02:03 GMT+0800 (中国标准时间)
+	 toUTCString:	Mon, 01 Feb -2012 17:02:03 GMT
+	 toGMTString:	Mon, 01 Feb -2012 17:02:03 GMT
+	 toISOString:	-002012-02-01T17:02:03.000Z
+			2 -125657074677000 -480
+			-2012/1/2
+			1:2:3.0
+
+Date string:		Tue Feb 02 -2012 01:02:03 GMT+0800 (中国标准时间)
+	 raw:		-125657074677000
+	 toString:	Tue Feb 02 -2012 01:02:03 GMT+0800 (中国标准时间)
+	 toUTCString:	Mon, 01 Feb -2012 17:02:03 GMT
+	 toGMTString:	Mon, 01 Feb -2012 17:02:03 GMT
+	 toISOString:	-002012-02-01T17:02:03.000Z
+			2 -125657074677000 -480
+			-2012/1/2
+			1:2:3.0
+
+Date string:		Mon, 01 Feb -2012 17:02:03 GMT
+	 raw:		-125657074677000
+	 toString:	Tue Feb 02 -2012 01:02:03 GMT+0800 (中国标准时间)
+	 toUTCString:	Mon, 01 Feb -2012 17:02:03 GMT
+	 toGMTString:	Mon, 01 Feb -2012 17:02:03 GMT
+	 toISOString:	-002012-02-01T17:02:03.000Z
+			2 -125657074677000 -480
+			-2012/1/2
+			1:2:3.0
+
+Date string:		-002012-02-01T17:02:03.000Z
+	 raw:		-125657074677000
+	 toString:	Tue Feb 02 -2012 01:02:03 GMT+0800 (中国标准时间)
+	 toUTCString:	Mon, 01 Feb -2012 17:02:03 GMT
+	 toGMTString:	Mon, 01 Feb -2012 17:02:03 GMT
+	 toISOString:	-002012-02-01T17:02:03.000Z
+			2 -125657074677000 -480
+			-2012/1/2
+			1:2:3.0
+
+B --
+Date string:		Thu Feb 02 2012 01:02:03 GMT+0800 (中国标准时间)
+	 raw:		1328115723000
+	 toString:	Thu Feb 02 2012 01:02:03 GMT+0800 (中国标准时间)
+	 toUTCString:	Wed, 01 Feb 2012 17:02:03 GMT
+	 toGMTString:	Wed, 01 Feb 2012 17:02:03 GMT
+	 toISOString:	2012-02-01T17:02:03.000Z
+			2 1328115723000 -480
+			2012/1/4
+			1:2:3.0
+
+Date string:		Thu Feb 02 2012 01:02:03 GMT+0800 (中国标准时间)
+	 raw:		1328115723000
+	 toString:	Thu Feb 02 2012 01:02:03 GMT+0800 (中国标准时间)
+	 toUTCString:	Wed, 01 Feb 2012 17:02:03 GMT
+	 toGMTString:	Wed, 01 Feb 2012 17:02:03 GMT
+	 toISOString:	2012-02-01T17:02:03.000Z
+			2 1328115723000 -480
+			2012/1/4
+			1:2:3.0
+
+Date string:		Wed, 01 Feb 2012 17:02:03 GMT
+	 raw:		1328115723000
+	 toString:	Thu Feb 02 2012 01:02:03 GMT+0800 (中国标准时间)
+	 toUTCString:	Wed, 01 Feb 2012 17:02:03 GMT
+	 toGMTString:	Wed, 01 Feb 2012 17:02:03 GMT
+	 toISOString:	2012-02-01T17:02:03.000Z
+			2 1328115723000 -480
+			2012/1/4
+			1:2:3.0
+
+Date string:		2012-02-01T17:02:03.000Z
+	 raw:		1328115723000
+	 toString:	Thu Feb 02 2012 01:02:03 GMT+0800 (中国标准时间)
+	 toUTCString:	Wed, 01 Feb 2012 17:02:03 GMT
+	 toGMTString:	Wed, 01 Feb 2012 17:02:03 GMT
+	 toISOString:	2012-02-01T17:02:03.000Z
+			2 1328115723000 -480
+			2012/1/4
+			1:2:3.0
+
+C --
+Date string:		Tue Feb 02 99999 01:02:03 GMT+0800 (中国标准时间)
+	 raw:		3093499184523000
+	 toString:	Tue Feb 02 99999 01:02:03 GMT+0800 (中国标准时间)
+	 toUTCString:	Mon, 01 Feb 99999 17:02:03 GMT
+	 toGMTString:	Mon, 01 Feb 99999 17:02:03 GMT
+	 toISOString:	+099999-02-01T17:02:03.000Z
+			2 3093499184523000 -480
+			99999/1/2
+			1:2:3.0
+
+Date string:		Tue Feb 02 99999 01:02:03 GMT+0800 (中国标准时间)
+	 raw:		3093499184523000
+	 toString:	Tue Feb 02 99999 01:02:03 GMT+0800 (中国标准时间)
+	 toUTCString:	Mon, 01 Feb 99999 17:02:03 GMT
+	 toGMTString:	Mon, 01 Feb 99999 17:02:03 GMT
+	 toISOString:	+099999-02-01T17:02:03.000Z
+			2 3093499184523000 -480
+			99999/1/2
+			1:2:3.0
+
+Date string:		Mon, 01 Feb 99999 17:02:03 GMT
+	 raw:		3093499184523000
+	 toString:	Tue Feb 02 99999 01:02:03 GMT+0800 (中国标准时间)
+	 toUTCString:	Mon, 01 Feb 99999 17:02:03 GMT
+	 toGMTString:	Mon, 01 Feb 99999 17:02:03 GMT
+	 toISOString:	+099999-02-01T17:02:03.000Z
+			2 3093499184523000 -480
+			99999/1/2
+			1:2:3.0
+
+Date string:		+099999-02-01T17:02:03.000Z
+	 raw:		3093499184523000
+	 toString:	Tue Feb 02 99999 01:02:03 GMT+0800 (中国标准时间)
+	 toUTCString:	Mon, 01 Feb 99999 17:02:03 GMT
+	 toGMTString:	Mon, 01 Feb 99999 17:02:03 GMT
+	 toISOString:	+099999-02-01T17:02:03.000Z
+			2 3093499184523000 -480
+			99999/1/2
+			1:2:3.0
+
+D --
+Date string:		Fri Feb 02 -99999 01:02:03 GMT+0800 (中国标准时间)
+	 raw:		-3217828057077000
+	 toString:	Fri Feb 02 -99999 01:02:03 GMT+0800 (中国标准时间)
+	 toUTCString:	Thu, 01 Feb -99999 17:02:03 GMT
+	 toGMTString:	Thu, 01 Feb -99999 17:02:03 GMT
+	 toISOString:	-099999-02-01T17:02:03.000Z
+			2 -3217828057077000 -480
+			-99999/1/5
+			1:2:3.0
+
+Date string:		Fri Feb 02 -99999 01:02:03 GMT+0800 (中国标准时间)
+	 raw:		-3217828057077000
+	 toString:	Fri Feb 02 -99999 01:02:03 GMT+0800 (中国标准时间)
+	 toUTCString:	Thu, 01 Feb -99999 17:02:03 GMT
+	 toGMTString:	Thu, 01 Feb -99999 17:02:03 GMT
+	 toISOString:	-099999-02-01T17:02:03.000Z
+			2 -3217828057077000 -480
+			-99999/1/5
+			1:2:3.0
+
+Date string:		Thu, 01 Feb -99999 17:02:03 GMT
+	 raw:		-3217828057077000
+	 toString:	Fri Feb 02 -99999 01:02:03 GMT+0800 (中国标准时间)
+	 toUTCString:	Thu, 01 Feb -99999 17:02:03 GMT
+	 toGMTString:	Thu, 01 Feb -99999 17:02:03 GMT
+	 toISOString:	-099999-02-01T17:02:03.000Z
+			2 -3217828057077000 -480
+			-99999/1/5
+			1:2:3.0
+
+Date string:		-099999-02-01T17:02:03.000Z
+	 raw:		-3217828057077000
+	 toString:	Fri Feb 02 -99999 01:02:03 GMT+0800 (中国标准时间)
+	 toUTCString:	Thu, 01 Feb -99999 17:02:03 GMT
+	 toGMTString:	Thu, 01 Feb -99999 17:02:03 GMT
+	 toISOString:	-099999-02-01T17:02:03.000Z
+			2 -3217828057077000 -480
+			-99999/1/5
+			1:2:3.0
+
+E --
+Date string:		Tue Feb 02 -0012 01:02:03 GMT+0800 (中国标准时间)
+	 raw:		-62543170677000
+	 toString:	Tue Feb 02 -0012 01:02:03 GMT+0800 (中国标准时间)
+	 toUTCString:	Mon, 01 Feb -0012 17:02:03 GMT
+	 toGMTString:	Mon, 01 Feb -0012 17:02:03 GMT
+	 toISOString:	-000012-02-01T17:02:03.000Z
+			2 -62543170677000 -480
+			-12/1/2
+			1:2:3.0
+
+Date string:		Tue Feb 02 -0012 01:02:03 GMT+0800 (中国标准时间)
+	 raw:		-62543170677000
+	 toString:	Tue Feb 02 -0012 01:02:03 GMT+0800 (中国标准时间)
+	 toUTCString:	Mon, 01 Feb -0012 17:02:03 GMT
+	 toGMTString:	Mon, 01 Feb -0012 17:02:03 GMT
+	 toISOString:	-000012-02-01T17:02:03.000Z
+			2 -62543170677000 -480
+			-12/1/2
+			1:2:3.0
+
+Date string:		Mon, 01 Feb -0012 17:02:03 GMT
+	 raw:		-62543170677000
+	 toString:	Tue Feb 02 -0012 01:02:03 GMT+0800 (中国标准时间)
+	 toUTCString:	Mon, 01 Feb -0012 17:02:03 GMT
+	 toGMTString:	Mon, 01 Feb -0012 17:02:03 GMT
+	 toISOString:	-000012-02-01T17:02:03.000Z
+			2 -62543170677000 -480
+			-12/1/2
+			1:2:3.0
+
+Date string:		-000012-02-01T17:02:03.000Z
+	 raw:		-62543170677000
+	 toString:	Tue Feb 02 -0012 01:02:03 GMT+0800 (中国标准时间)
+	 toUTCString:	Mon, 01 Feb -0012 17:02:03 GMT
+	 toGMTString:	Mon, 01 Feb -0012 17:02:03 GMT
+	 toISOString:	-000012-02-01T17:02:03.000Z
+			2 -62543170677000 -480
+			-12/1/2
+			1:2:3.0
+
+F --
+Date string:		Fri Feb 02 1912 01:02:03 GMT+0800 (中国标准时间)
+	 raw:		-1827644277000
+	 toString:	Fri Feb 02 1912 01:02:03 GMT+0800 (中国标准时间)
+	 toUTCString:	Thu, 01 Feb 1912 17:02:03 GMT
+	 toGMTString:	Thu, 01 Feb 1912 17:02:03 GMT
+	 toISOString:	1912-02-01T17:02:03.000Z
+			2 -1827644277000 -480
+			1912/1/5
+			1:2:3.0
+
+Date string:		Fri Feb 02 1912 01:02:03 GMT+0800 (中国标准时间)
+	 raw:		-1827644277000
+	 toString:	Fri Feb 02 1912 01:02:03 GMT+0800 (中国标准时间)
+	 toUTCString:	Thu, 01 Feb 1912 17:02:03 GMT
+	 toGMTString:	Thu, 01 Feb 1912 17:02:03 GMT
+	 toISOString:	1912-02-01T17:02:03.000Z
+			2 -1827644277000 -480
+			1912/1/5
+			1:2:3.0
+
+Date string:		Thu, 01 Feb 1912 17:02:03 GMT
+	 raw:		-1827644277000
+	 toString:	Fri Feb 02 1912 01:02:03 GMT+0800 (中国标准时间)
+	 toUTCString:	Thu, 01 Feb 1912 17:02:03 GMT
+	 toGMTString:	Thu, 01 Feb 1912 17:02:03 GMT
+	 toISOString:	1912-02-01T17:02:03.000Z
+			2 -1827644277000 -480
+			1912/1/5
+			1:2:3.0
+
+Date string:		1912-02-01T17:02:03.000Z
+	 raw:		-1827644277000
+	 toString:	Fri Feb 02 1912 01:02:03 GMT+0800 (中国标准时间)
+	 toUTCString:	Thu, 01 Feb 1912 17:02:03 GMT
+	 toGMTString:	Thu, 01 Feb 1912 17:02:03 GMT
+	 toISOString:	1912-02-01T17:02:03.000Z
+			2 -1827644277000 -480
+			1912/1/5
+			1:2:3.0
+
+Phase 2 - parsing sample date strings
+Date string:		Tue Feb 02 2012 01:02:03 GMT-0800 (Pacific Standard Time)
+	 raw:		1328173323000
+	 toString:	Thu Feb 02 2012 17:02:03 GMT+0800 (中国标准时间)
+	 toUTCString:	Thu, 02 Feb 2012 09:02:03 GMT
+	 toGMTString:	Thu, 02 Feb 2012 09:02:03 GMT
+	 toISOString:	2012-02-02T09:02:03.000Z
+			2 1328173323000 -480
+			2012/1/4
+			17:2:3.0
+
+Date string:		Tue Feb 02 2012 01:02:03 GMT+0800 (prisec)
+	 raw:		1328115723000
+	 toString:	Thu Feb 02 2012 01:02:03 GMT+0800 (中国标准时间)
+	 toUTCString:	Wed, 01 Feb 2012 17:02:03 GMT
+	 toGMTString:	Wed, 01 Feb 2012 17:02:03 GMT
+	 toISOString:	2012-02-01T17:02:03.000Z
+			2 1328115723000 -480
+			2012/1/4
+			1:2:3.0
+
+Date string:		Tue Feb 02 2012 01:02:03 GMT+0000
+	 raw:		1328144523000
+	 toString:	Thu Feb 02 2012 09:02:03 GMT+0800 (中国标准时间)
+	 toUTCString:	Thu, 02 Feb 2012 01:02:03 GMT
+	 toGMTString:	Thu, 02 Feb 2012 01:02:03 GMT
+	 toISOString:	2012-02-02T01:02:03.000Z
+			2 1328144523000 -480
+			2012/1/4
+			9:2:3.0
+
+Date string:		Tue Feb 02 2012 01:02:03 GMT-0000
+	 raw:		1328144523000
+	 toString:	Thu Feb 02 2012 09:02:03 GMT+0800 (中国标准时间)
+	 toUTCString:	Thu, 02 Feb 2012 01:02:03 GMT
+	 toGMTString:	Thu, 02 Feb 2012 01:02:03 GMT
+	 toISOString:	2012-02-02T01:02:03.000Z
+			2 1328144523000 -480
+			2012/1/4
+			9:2:3.0
+
+Date string:		Tue Feb 02 2012 01:02:03 GMT+0430 (prisec@)
+	 raw:		1328128323000
+	 toString:	Thu Feb 02 2012 04:32:03 GMT+0800 (中国标准时间)
+	 toUTCString:	Wed, 01 Feb 2012 20:32:03 GMT
+	 toGMTString:	Wed, 01 Feb 2012 20:32:03 GMT
+	 toISOString:	2012-02-01T20:32:03.000Z
+			2 1328128323000 -480
+			2012/1/4
+			4:32:3.0
+
+Date string:		Tue Feb 2 01:02:03 PST 2013 B.C.
+	 raw:		-125657017077000
+	 toString:	Tue Feb 02 -2012 17:02:03 GMT+0800 (中国标准时间)
+	 toUTCString:	Tue, 02 Feb -2012 09:02:03 GMT
+	 toGMTString:	Tue, 02 Feb -2012 09:02:03 GMT
+	 toISOString:	-002012-02-02T09:02:03.000Z
+			2 -125657017077000 -480
+			-2012/1/2
+			17:2:3.0
+
+Date string:		Thu Feb 2 01:02:03 PST 2012
+	 raw:		1328173323000
+	 toString:	Thu Feb 02 2012 17:02:03 GMT+0800 (中国标准时间)
+	 toUTCString:	Thu, 02 Feb 2012 09:02:03 GMT
+	 toGMTString:	Thu, 02 Feb 2012 09:02:03 GMT
+	 toISOString:	2012-02-02T09:02:03.000Z
+			2 1328173323000 -480
+			2012/1/4
+			17:2:3.0
+
+Date string:		Thu, 23 Sep -
+	 raw:		NaN
+	 toString:	Invalid Date
+	 toUTCString:	Invalid Date
+	 toGMTString:	Invalid Date
+
+Date string:		Thu, 23 Sep-
+	 raw:		NaN
+	 toString:	Invalid Date
+	 toUTCString:	Invalid Date
+	 toGMTString:	Invalid Date
+
+Date string:		Tue Feb 02 -
+	 raw:		NaN
+	 toString:	Invalid Date
+	 toUTCString:	Invalid Date
+	 toGMTString:	Invalid Date
+
+Date string:		Tue Feb 02-
+	 raw:		NaN
+	 toString:	Invalid Date
+	 toUTCString:	Invalid Date
+	 toGMTString:	Invalid Date
+
